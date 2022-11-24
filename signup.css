@@ -1,0 +1,109 @@
+body{
+    background-color:hsla(38,100%,50%,1);
+background-image:
+radial-gradient(at 95% 90%, hsla(0,100%,43%,1) 0px, transparent 50%),
+radial-gradient(at 4% 4%, hsla(0,100%,50%,1) 0px, transparent 50%);
+}
+.shell{
+    width: 1300px;
+    height: 650px;
+    background-color: aliceblue;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
+}
+.one{
+    background-color: black;
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    color: white;
+}
+.one img{
+    width: 225px;
+    height: 50px;
+    margin-left: 33%;
+    margin-top: 5%;
+}
+.line{
+    padding-left: 6%;
+    margin-top: 8%;
+}
+.line ul{
+    list-style: none;
+}
+.line ul li{
+    font-size: 20px;
+}
+.line ul li b{
+    font-size: 60px;
+}
+.form{
+    background-color: rgb(216, 216, 216);
+    width: 400px;
+    height: 300px;
+    margin-left: 19%;
+    margin-top: 12%;
+    border-radius: 5px;
+}
+.form .form-control{
+    height: 35px;
+    margin-bottom: 20px;
+    width: 80%;
+    border: none;
+    border-bottom:1px solid black;
+    font-size: 15px;
+    color: black;
+    outline: none;
+    margin-top: 7%;
+    background-color: rgb(216, 216, 216);
+}
+.form-group{
+    padding-left: 12%;
+}
+.form label{    
+    font-size: 15px;
+    color: black;
+}
+.form label a{    
+    color: black;
+}
+.form .btn{
+    width: 50%;
+    background-color: black;
+    margin-top: 40px;
+    margin-left: 20%;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+}
+.two{
+    background-color:hsla(43,0%,96%,1);
+    background-image:
+    radial-gradient(at 55% 15%, hsla(334,92%,77%,1) 0px, transparent 50%),
+    radial-gradient(at 79% 69%, hsla(11,99%,77%,1) 0px, transparent 50%),
+    radial-gradient(at 23% 83%, hsla(63,97%,73%,1) 0px, transparent 50%),
+    radial-gradient(at 82% 22%, hsla(357,81%,75%,1) 0px, transparent 50%),
+    radial-gradient(at 29% 16%, hsla(18,100%,76%,1) 0px, transparent 50%);
+    flex: 0 0 50%;
+    max-width: 50%;
+    background-color: white;
+}
+.two .head{
+    margin-top: 0%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+}
+/* .plant{
+    width: 20px;
+    height: 20px;
+} */

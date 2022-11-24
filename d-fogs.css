@@ -1,0 +1,561 @@
+.top1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border: solid 1px black;
+    background-color: white;
+    z-index: 1;
+}
+.top1 ul{
+    display: flex;
+    flex-direction:  row;
+    justify-content: space-evenly;
+    position: relative;
+}
+.top1 ul li{
+    list-style-type: none;
+    font-size: 18px;
+    margin-top: 1%;
+}
+.top1 ul li a{
+    text-decoration: none;
+    color: black;
+}
+.top1 ul li img{
+    width: 170;
+    height: 40;
+}
+.search{
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+.search input{
+    margin-top: 5%;
+    background: transparent;
+    border: 0px;
+    outline: 0px;
+    width: 250px;
+}
+.icon-search{
+    padding-left: 5%;
+}
+.top1 ul ul{
+    display: none;
+}
+.top1 ul li:hover > ul{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 200px;
+    height: 350px;
+    background-color: rgb(239, 238, 238);
+    margin-top: 1%;
+    margin-left: -20px;
+    text-align: left;
+    padding: 0%;
+    text-align-last: left;
+    padding-left: 25px;
+    border: 1px solid black;
+}
+.top1 ul li:hover > ul li a{
+    color: black;
+}
+#first:hover > ul{
+    color: black;
+    background-color: rgb(239, 238, 238);
+    margin-left: 201px;
+    width: 160px;
+    height: 350px;
+    margin-top: -47px;
+}
+#second:hover > ul{
+    color: black;
+    background-color: rgb(239, 238, 238);
+    margin-left: 201px;
+    width: 150;
+    height: 125px;
+    margin-top: -30px;
+}
+#third:hover > ul{
+    color: black;
+    background-color: rgb(239, 238, 238);
+    margin-left: 201px;
+    width: 150;
+    height: 100px;
+    margin-top: -30px;
+}
+#fourth:hover > ul{
+    color: black;
+    background-color: rgb(239, 238, 238);
+    margin-left: 201px;
+    width: 180;
+    height: 350px;
+    margin-top: -40px;
+}
+#fifth:hover > ul{
+    color: black;
+    background-color: rgb(239, 238, 238);
+    margin-left: 201px;
+    width: 200;
+    height: 300px;
+    margin-top: -40px;
+}
+#sixth:hover > ul{
+    color: black;
+    background-color: rgb(239, 238, 238);
+    margin-left: 201px;
+    width: 180;
+    height: 300px;
+    margin-top: -40px;
+}
+#seventh:hover > ul{
+    color: black;
+    background-color: rgb(239, 238, 238);
+    margin-left: 201px;
+    width: 180;
+    height: 250px;
+    margin-top: -40px;
+}
+.top1 button{
+    background-color: white;
+    width: 110px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.top1 button:hover{
+    background-color: black;
+    color: white;
+}
+.background{
+    width: 1510px;
+    height: 500px;
+    margin-top: 85px;
+    margin-left: 0px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    background-color:hsla(0,0%,46%,1);
+background-image:
+radial-gradient(at 98% 32%, hsla(0,0%,0%,1) 0px, transparent 50%),
+radial-gradient(at 97% 65%, hsla(342,0%,0%,1) 0px, transparent 50%),
+radial-gradient(at 98% 8%, hsla(0,0%,0%,1) 0px, transparent 50%),
+radial-gradient(at 97% 92%, hsla(334,0%,0%,1) 0px, transparent 50%);
+color: white;
+display: block;
+}
+.background img{
+    /* display: block; */
+    position: absolute;   
+    margin-top: 13%;
+    margin-left: 5%;
+    height: 350px;
+    filter: drop-shadow(black -10px 50px 40px);
+    /* z-index: 0; */
+}
+.box{
+    margin-left: 30%;
+    margin-top: 3%;
+    width: 900px;
+    height: 100px;
+    background-color: white;
+    border-radius: 20px;
+}
+.boximg{
+    color: black;
+}
+.boximg img{
+    margin-left: -3%;
+    margin-top: 1.5%;
+    width: 50px;
+    height: 50px;
+}
+.boximg ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+.boximg ul p {
+    padding: 17%;
+    margin-left: -45%;
+}
+.text { 
+    display: flex;
+    flex-direction: column;
+    margin-left: 40%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.text ul{
+    list-style: none;
+}
+.text ul li{
+    font-size: 30px;
+}
+.text ul li{
+    font-size: 50px;
+}
+.module h1{
+    margin-top: 5%;
+    font-size: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+}
+.module h1 svg{
+    width: 25px;
+    height: 25px;
+}
+.exam1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.exam1 a{
+    text-decoration: none;
+}
+.e1{
+    width: 400px;
+    height: 200px;
+    color: black;
+    border-radius: 30px;
+    box-shadow: 5px 7px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.e1:hover{
+    color: white;
+    background-color: black;
+}
+.e1:hover h4{
+    color: white;
+}
+.e11{
+    margin-top: 3%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.e11 h4{
+    color: rgb(99, 99, 99);
+}
+.e11 h3{
+    margin-top: 38%;
+}
+.e12{
+    margin-top: 6%;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(172, 172, 172);
+    border-radius: 20px;
+}
+.e12 img{
+    width: 145px;
+    height: 120px;
+    margin-top: 6%;
+}
+.e2{
+    width: 400px;
+    height: 200px;
+    color: black;
+    border-radius: 30px;
+    box-shadow: 5px 7px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.e2:hover{
+    color: white;
+    background-color: black;
+}
+.e2:hover h4{
+    color: white;
+}
+.e21{
+    margin-top: 3%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.e21 h4{
+    color: rgb(99, 99, 99);
+}
+.e21 h3{
+    margin-top: 38%;
+}
+.e22{
+    margin-top: 6%;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(172, 172, 172);
+    border-radius: 20px;
+}
+.e22 img{
+    width: 145px;
+    height: 145px;
+}
+.e3{
+    width: 400px;
+    height: 200px;
+    color: black;
+    border-radius: 30px;
+    box-shadow: 5px 7px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.e3:hover{
+    color: white;
+    background-color: black;
+}
+.e3:hover h4{
+    color: white;
+}
+.e31{
+    margin-top: 3%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.e31 h4{
+    color: rgb(99, 99, 99);
+}
+.e31 h3{
+    margin-top: 38%;
+}
+.e32{
+    margin-top: 6%;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(172, 172, 172);
+    border-radius: 20px;
+}
+.e32 img{
+    width: 120px;
+    height: 120px;
+    margin-left: 7%;
+    margin-top: 6%;
+}
+.exam2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 4%;
+}
+.exam2 a{
+    text-decoration: none;
+}
+.ee1{
+    width: 400px;
+    height: 200px;
+    color: black;
+    border-radius: 30px;
+    box-shadow: 5px 7px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.ee1:hover{
+    color: white;
+    background-color: black;
+}
+.ee1:hover h4{
+    color: white;
+}
+.ee11{
+    margin-top: 3%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ee11 h4{
+    color: rgb(99, 99, 99);
+}
+.ee11 h3{
+    margin-top: 38%;
+}
+.ee12{
+    margin-top: 6%;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(172, 172, 172);
+    border-radius: 20px;
+}
+.ee12 img{
+    width: 145px;
+    height: 145px;
+}
+.ee2{
+    width: 400px;
+    height: 200px;
+    color: black;
+    border-radius: 30px;
+    box-shadow: 5px 7px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.ee2:hover{
+    color: white;
+    background-color: black;
+}
+.ee2:hover h4{
+    color: white;
+}
+.ee21{
+    margin-top: 3%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ee21 h4{
+    color: rgb(99, 99, 99);
+}
+.ee21 h3{
+    margin-top: 38%;
+}
+.ee22{
+    margin-top: 6%;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(172, 172, 172);
+    border-radius: 20px;
+}
+.ee22 img{
+    width: 150px;
+    height: 150px;
+}
+.ee3{
+    width: 400px;
+    height: 200px;
+    color: black;
+    border-radius: 30px;
+    box-shadow: 5px 7px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.ee3:hover{
+    color: white;
+    background-color: black;
+}
+.ee3:hover h4{
+    color: white;
+}
+.ee31{
+    margin-top: 3%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ee31 h4{
+    color: rgb(99, 99, 99);
+}
+.ee31 h3{
+    margin-top: 38%;
+}
+.ee32{
+    margin-top: 6%;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(172, 172, 172);
+    border-radius: 20px;
+}
+.ee32 img{
+    width: 145px;
+    height: 145px;
+}
+.login-popup{
+    font-family: sans-serif;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1099;
+    background-color: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 1s ease;
+}
+.login-popup.show{
+    visibility: visible;
+    opacity: 1;
+}
+.login-popup .dox{
+    background-color: white;
+    width: 750px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-wrap: wrap;
+    opacity: 0;
+    margin-left: 50px;
+    transition: all 1s ease;
+}
+.login-popup.show .dox{
+    opacity: 1;
+    margin-left: 0;
+}
+.login-popup .dox .img-area{
+    flex: 0 0 50%;
+    max-width: 315;
+    position: relative;
+}
+.login-popup .dox .img-area .img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('login.png');
+    background-size: cover;
+    background-position: center;
+}
+.login-popup .dox .form{
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 40px 30px;
+}
+.login-popup .dox .form h1{
+    color: #000000;
+    font-size: 30px;
+    margin: 0 0 30px;
+}
+.login-popup .dox .form .form-control{
+    height: 45px;
+    margin-bottom: 30px;
+    width: 100%;
+    border: none;
+    border-bottom:1px solid #cccccc;
+    font-size: 15px;
+    color: black;
+}
+.login-popup .dox .form .form-control:focus{
+    outline: none;
+}
+.login-popup .dox .form label{
+    font-size: 15px;
+    color: black;
+}
+.login-popup .dox .form .btn{
+    width: 100%;
+    background-color: rgb(172, 170, 170);
+    margin-top: 40px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: black;
+    cursor: pointer;
+}
+.login-popup .dox .form .btn:focus{
+    outline: none;
+}
+.login-popup .dox .form .close{
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    font-size: 30px;
+    cursor:  pointer;
+}

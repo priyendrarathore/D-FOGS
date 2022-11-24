@@ -1,0 +1,1 @@
+src="https://cdn.lordicon.com/qjzruarw.js"
